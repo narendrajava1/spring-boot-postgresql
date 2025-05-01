@@ -1,22 +1,23 @@
-package com.hendisantika.postgres.entity;
+package com.naren.postgres.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 
-import javax.persistence.*;
 
 /**
  * Created by IntelliJ IDEA.
  * Project : spring-boot-postgresql
- * User: hendisantika
- * Email: hendisantika@gmail.com
- * Telegram : @hendisantika34
+ * User: narendrajava1
+ * GitHub: https://github.com/narendrajava1
+ * Email: kolli7571@gmail.com
  * Date: 24/09/18
- * Time: 18.48
+ * Time: 18.51
  * To change this template use File | Settings | File Templates.
  */
+@EqualsAndHashCode(callSuper = true)
 @Entity
 @Table(name = "answers")
 @Data

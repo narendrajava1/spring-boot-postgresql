@@ -1,6 +1,7 @@
-package com.hendisantika.postgres.entity;
+package com.naren.postgres.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import jakarta.persistence.*;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
@@ -9,18 +10,17 @@ import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by IntelliJ IDEA.
  * Project : spring-boot-postgresql
- * User: hendisantika
- * Email: hendisantika@gmail.com
- * Telegram : @hendisantika34
+ * User: narendrajava1
+ * GitHub: https://github.com/narendrajava1
+ * Email: kolli7571@gmail.com
  * Date: 24/09/18
- * Time: 18.47
+ * Time: 18.51
  * To change this template use File | Settings | File Templates.
  */
 @MappedSuperclass

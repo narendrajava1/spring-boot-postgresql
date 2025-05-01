@@ -1,4 +1,4 @@
-package com.hendisantika.postgres;
+package com.naren.postgres;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

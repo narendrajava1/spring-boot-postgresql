@@ -1,24 +1,24 @@
-package com.hendisantika.postgres.controller;
+package com.naren.postgres.controller;
 
-import com.hendisantika.postgres.entity.Answer;
-import com.hendisantika.postgres.exception.ResourceNotFoundException;
-import com.hendisantika.postgres.repository.AnswerRepository;
-import com.hendisantika.postgres.repository.QuestionRepository;
+import com.naren.postgres.entity.Answer;
+import com.naren.postgres.exception.ResourceNotFoundException;
+import com.naren.postgres.repository.AnswerRepository;
+import com.naren.postgres.repository.QuestionRepository;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 
 /**
  * Created by IntelliJ IDEA.
  * Project : spring-boot-postgresql
- * User: hendisantika
- * Email: hendisantika@gmail.com
- * Telegram : @hendisantika34
+ * User: narendrajava1
+ * GitHub: https://github.com/narendrajava1
+ * Email: kolli7571@gmail.com
  * Date: 24/09/18
- * Time: 18.54
+ * Time: 18.51
  * To change this template use File | Settings | File Templates.
  */
 @RestController

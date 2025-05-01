@@ -4,7 +4,7 @@
 
 __1. Clone the repository__
 
-`git clone https://gitlab.com/hendisantika/spring-boot-postgresql.git`
+`git clone https://github.com/narendrajava1/spring-boot-postgresql.git`
 
 __2. Configure PostgreSQL__
 

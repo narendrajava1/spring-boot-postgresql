@@ -1,21 +1,22 @@
-package com.hendisantika.postgres.entity;
+package com.naren.postgres.entity;
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.*;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Size;
 
 /**
  * Created by IntelliJ IDEA.
  * Project : spring-boot-postgresql
- * User: hendisantika
- * Email: hendisantika@gmail.com
- * Telegram : @hendisantika34
+ * User: narendrajava1
+ * GitHub: https://github.com/narendrajava1
+ * Email: kolli7571@gmail.com
  * Date: 24/09/18
- * Time: 18.46
+ * Time: 18.51
  * To change this template use File | Settings | File Templates.
  */
+@EqualsAndHashCode(callSuper = true)
 @Entity
 @Table(name = "questions")
 @Data

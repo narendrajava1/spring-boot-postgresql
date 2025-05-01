@@ -1,6 +1,6 @@
-package com.hendisantika.postgres.repository;
+package com.naren.postgres.repository;
 
-import com.hendisantika.postgres.entity.Answer;
+import com.naren.postgres.entity.Answer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
@@ -8,9 +8,9 @@ import java.util.List;
 /**
  * Created by IntelliJ IDEA.
  * Project : spring-boot-postgresql
- * User: hendisantika
- * Email: hendisantika@gmail.com
- * Telegram : @hendisantika34
+ * User: narendrajava1
+ * GitHub: https://github.com/narendrajava1
+ * Email: kolli7571@gmail.com
  * Date: 24/09/18
  * Time: 18.51
  * To change this template use File | Settings | File Templates.
